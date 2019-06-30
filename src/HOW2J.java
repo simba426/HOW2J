@@ -9,10 +9,9 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class HOW2J {
-    public static void main(String[] argv) {
-
+    public static void main(String[] argv) throws UnsupportedEncodingException {
+        
     }
-
 
 }
 

@@ -1,4 +1,4 @@
-public class selfmadeException {
+public class SelfmadeException {
     public void run() {
         CheckingAccount account = new CheckingAccount(1000, 2000);
         try {
