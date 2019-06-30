@@ -8,14 +8,22 @@ public class SplitAndMergeFile {
             return;
         }
         byte[] fileContent = new byte[(int) srcfile.length()];
+        FileInputStream fis = null;
         try {
-            FileInputStream fis = new FileInputStream(srcfile);
+            fis = new FileInputStream(srcfile);
             fis.read(fileContent);
-            fis.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            if (null != fis) {
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
 
         int filenum;
@@ -35,31 +43,41 @@ public class SplitAndMergeFile {
             } else
                 newfileContent = Arrays.copyOfRange(fileContent, splitsize * i, fileContent.length);
 
+            FileOutputStream fos = null;
             try {
-                FileOutputStream fos = new FileOutputStream(newfile);
+                fos = new FileOutputStream(newfile);
                 fos.write(newfileContent);
-                fos.close();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
+            } finally {
+                if (null != fos) {
+                    try {
+                        fos.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
         }
     }
 
     public static void merge (String folder, String filename) {
         File mergeFile = new File(folder, "new" + filename);
+        FileOutputStream fos = null;
+        FileInputStream fis = null;
         try {
-            FileOutputStream fos = new FileOutputStream(mergeFile);
             int index = 0;
             while (true){
+                fos = new FileOutputStream(mergeFile);
                 String subFileName = index + "-" + filename;
                 index++;
                 File subFile = new File(folder, subFileName);
                 if (!subFile.exists()) {
                     return;
                 }
-                FileInputStream fis = new FileInputStream(subFile);
+                fis = new FileInputStream(subFile);
                 byte[] subFileContent = new byte[(int) subFile.length()];
                 fis.read(subFileContent);
                 fis.close();
@@ -70,6 +88,14 @@ public class SplitAndMergeFile {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            if (null != fos) {
+                try {
+                    fos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 
