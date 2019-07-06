@@ -1,3 +1,5 @@
+package fundament;
+
 import java.util.Scanner;
 
 public class Prime {

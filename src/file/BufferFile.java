@@ -1,3 +1,5 @@
+package file;
+
 import java.io.*;
 
 public class BufferFile {

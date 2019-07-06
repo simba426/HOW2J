@@ -1,3 +1,5 @@
+package fundament;
+
 public class AnimalTest {
 
 }

@@ -1,3 +1,5 @@
+package multiplethread;
+
 import java.util.LinkedList;
 
 public class MyStack<Object> {

@@ -1,3 +1,5 @@
+package multiplethread;
+
 import oracle.jvm.hotspot.jfr.Producer;
 
 public class CosumerAndProducer {

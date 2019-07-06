@@ -9,7 +9,7 @@ import java.util.*;
 public class HOW2J {
 
     public static void main(String[] argv) {
-        
+
     }
 }
 
