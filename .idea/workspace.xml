@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44c9b2e-329e-4f31-8acb-69a0ceb4cf43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hero.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/ADHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/APHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundament/AnimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BufferFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/BufferFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CosumerAndProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiplethread/CosumerAndProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EncodeAndDecodeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/EncodeAndDecodeFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/FileList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOW2J.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HOW2J.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HOW2J.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HOW2J.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackPasswordThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiplethread/HackPasswordThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogPasswordThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiplethread/LogPasswordThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiplethread/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fundament/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchFileThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiplethread/SearchFileThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SplitAndMergeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/file/SplitAndMergeFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +28,76 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HOW2J.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hero.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reflection/Hero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reflection/APHero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reflection/ADHero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/multiplethread/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -66,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/MyNode.java" />
         <option value="$PROJECT_DIR$/src/RandomString.java" />
         <option value="$PROJECT_DIR$/src/ComsumerAndProducer.java" />
-        <option value="$PROJECT_DIR$/src/HOW2J.java" />
         <option value="$PROJECT_DIR$/src/CosumerAndProducer.java" />
         <option value="$PROJECT_DIR$/src/MyStack.java" />
         <option value="$PROJECT_DIR$/src/multiplethread/MyStack.java" />
@@ -82,6 +140,11 @@
         <option value="$PROJECT_DIR$/src/AnimalTest.java" />
         <option value="$PROJECT_DIR$/src/Prime.java" />
         <option value="$PROJECT_DIR$/src/SplitAndMergeFile.java" />
+        <option value="$PROJECT_DIR$/src/reflection/Hero.java" />
+        <option value="$PROJECT_DIR$/src/reflection/APHero.java" />
+        <option value="$PROJECT_DIR$/src/reflection/ADHero.java" />
+        <option value="$PROJECT_DIR$/src/hero.config" />
+        <option value="$PROJECT_DIR$/src/HOW2J.java" />
       </list>
     </option>
   </component>
@@ -95,7 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,11 +176,15 @@
               <item name="HOW2J" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HOW2J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,18 +240,21 @@
       <workItem from="1562026431161" duration="8752000" />
       <workItem from="1562114858871" duration="3472000" />
       <workItem from="1562200994261" duration="7655000" />
-      <workItem from="1562307351215" duration="3352000" />
+      <workItem from="1562307351215" duration="4124000" />
+      <workItem from="1562554388900" duration="2573000" />
+      <workItem from="1562737008654" duration="43000" />
+      <workItem from="1564362917693" duration="2208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38338000" />
+    <option name="totallyTimeSpent" value="43934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.27382874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.28594506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -193,7 +263,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50108933" side_tool="true" weight="0.27382874" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,13 +292,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -236,43 +299,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SelfmadeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RandomString.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multiplethread/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multiplethread/CosumerAndProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multiplethread/HackPasswordThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -282,16 +310,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/multiplethread/LogPasswordThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multiplethread/SearchFileThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
@@ -356,10 +374,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HOW2J.java">
+    <entry file="file://$PROJECT_DIR$/src/multiplethread/SearchFileThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiplethread/HackPasswordThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SelfmadeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiplethread/CosumerAndProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiplethread/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reflection/ADHero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reflection/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hero.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reflection/APHero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HOW2J.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -421,7 +535,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
